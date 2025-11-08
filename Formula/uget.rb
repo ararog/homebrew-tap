@@ -1,25 +1,25 @@
 class Uget < Formula
   desc "A minimal cli tool to make http requests. You want, you get!"
-  homepage "https://github.com/ararog/deboa"
-  version "0.1.2"
+  homepage "https://ararog.github.io/uget"
+  version "0.1.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ararog/deboa/releases/download/0.1.2/uget-aarch64-apple-darwin.tar.xz"
-      sha256 "1f15ff1f2387f5c0f5722bf5d4af0089a1922b50c52498a0457325c4da0e3497"
+      url "https://github.com/ararog/uget/releases/download/0.1.5/uget-aarch64-apple-darwin.tar.xz"
+      sha256 "593ad9d2f5137cf0d71fbe006e6e7bf84ec94205da4d7661fb8db4e03c5f6210"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ararog/deboa/releases/download/0.1.2/uget-x86_64-apple-darwin.tar.xz"
-      sha256 "c0097cecc4bff85b96a7b3f8803c700a88e0cebff2e90487e2dc6709f121d87d"
+      url "https://github.com/ararog/uget/releases/download/0.1.5/uget-x86_64-apple-darwin.tar.xz"
+      sha256 "70b517688f8b618360a154f731ba733bb6120a280c73e76c382d545b94a058f5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ararog/deboa/releases/download/0.1.2/uget-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "363fc252560e1a1bdd4051ed222e7dfae8f0f07d35f760c4d6d9afaffc366478"
+      url "https://github.com/ararog/uget/releases/download/0.1.5/uget-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b90252b72d732604324335547e4983cdc5320b0575c0160ee4a33ab98df7fb46"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ararog/deboa/releases/download/0.1.2/uget-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c53786c182aa4cad4e60935488afbb10a7b51e601f02eb58ec0364af50719c06"
+      url "https://github.com/ararog/uget/releases/download/0.1.5/uget-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1af51b8866120ed0bfb4a175a2565abf5c4cf0c35a8ec0718a76371664be5dc2"
     end
   end
   license "MIT"
